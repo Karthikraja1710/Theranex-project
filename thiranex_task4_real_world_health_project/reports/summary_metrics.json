@@ -1,0 +1,78 @@
+{
+  "dataset_name": "UCI Heart Disease Dataset",
+  "total_records": 303,
+  "total_features": 13,
+  "train_records": 243,
+  "test_records": 59,
+  "disease_prevalence_pct": 54.3,
+  "results_table": [
+    {
+      "Model": "Baseline (Logistic Regression)",
+      "Accuracy": 0.8136,
+      "Precision": 0.8387,
+      "Recall": 0.8125,
+      "F1-Score": 0.8254,
+      "ROC-AUC": 0.8588
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.7966,
+      "Precision": 0.8333,
+      "Recall": 0.7812,
+      "F1-Score": 0.8065,
+      "ROC-AUC": 0.8553
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.7627,
+      "Precision": 0.7647,
+      "Recall": 0.8125,
+      "F1-Score": 0.7879,
+      "ROC-AUC": 0.7882
+    }
+  ],
+  "best_model": "Baseline (Logistic Regression)",
+  "best_roc_auc": 0.8588,
+  "top_clinical_features": [
+    {
+      "Feature": "thal_2",
+      "Importance": 0.12761519653123937
+    },
+    {
+      "Feature": "oldpeak",
+      "Importance": 0.09964471595394511
+    },
+    {
+      "Feature": "exang_1",
+      "Importance": 0.09183578983272225
+    },
+    {
+      "Feature": "thalach",
+      "Importance": 0.09020811630723895
+    },
+    {
+      "Feature": "age",
+      "Importance": 0.07760494112789318
+    },
+    {
+      "Feature": "thal_3",
+      "Importance": 0.07641075178355432
+    },
+    {
+      "Feature": "slope_2",
+      "Importance": 0.061198370061527
+    },
+    {
+      "Feature": "cp_2",
+      "Importance": 0.054671131901813295
+    },
+    {
+      "Feature": "chol",
+      "Importance": 0.05245771868322784
+    },
+    {
+      "Feature": "trestbps",
+      "Importance": 0.0483306542278947
+    }
+  ]
+}
