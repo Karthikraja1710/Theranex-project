@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (optional, but keep raw datasets if small, ignore large cache)
+*.tmp
+
+# VS Code / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

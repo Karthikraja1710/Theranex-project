@@ -1,0 +1,127 @@
+{
+  "dataset_year": 2021,
+  "total_countries": 149,
+  "total_regions": 10,
+  "top_happiest_country": {
+    "country": "Finland",
+    "region": "Western Europe",
+    "score": 7.842
+  },
+  "bottom_happiest_country": {
+    "country": "Afghanistan",
+    "region": "South Asia",
+    "score": 2.523
+  },
+  "top_region": {
+    "region": "North America and ANZ",
+    "mean_score": 7.128
+  },
+  "bottom_region": {
+    "region": "South Asia",
+    "mean_score": 4.442
+  },
+  "univariate_stats": [
+    {
+      "Variable": "HappinessScore",
+      "Mean": 5.5328,
+      "Median": 5.534,
+      "StdDev": 1.0739,
+      "Min": 2.523,
+      "Q25 (25%)": 4.852,
+      "Q75 (75%)": 6.255,
+      "Max": 7.842,
+      "IQR": 1.403,
+      "Skewness": -0.1043
+    },
+    {
+      "Variable": "LogGDP",
+      "Mean": 9.4322,
+      "Median": 9.569,
+      "StdDev": 1.1586,
+      "Min": 6.635,
+      "Q25 (25%)": 8.541,
+      "Q75 (75%)": 10.421,
+      "Max": 11.647,
+      "IQR": 1.88,
+      "Skewness": -0.352
+    },
+    {
+      "Variable": "SocialSupport",
+      "Mean": 0.8147,
+      "Median": 0.832,
+      "StdDev": 0.1149,
+      "Min": 0.463,
+      "Q25 (25%)": 0.75,
+      "Q75 (75%)": 0.905,
+      "Max": 0.983,
+      "IQR": 0.155,
+      "Skewness": -0.9378
+    },
+    {
+      "Variable": "HealthyLifeExpectancy",
+      "Mean": 64.9928,
+      "Median": 66.603,
+      "StdDev": 6.762,
+      "Min": 48.478,
+      "Q25 (25%)": 59.802,
+      "Q75 (75%)": 69.6,
+      "Max": 76.953,
+      "IQR": 9.798,
+      "Skewness": -0.522
+    },
+    {
+      "Variable": "Freedom",
+      "Mean": 0.7916,
+      "Median": 0.804,
+      "StdDev": 0.1133,
+      "Min": 0.382,
+      "Q25 (25%)": 0.718,
+      "Q75 (75%)": 0.877,
+      "Max": 0.97,
+      "IQR": 0.159,
+      "Skewness": -0.7548
+    },
+    {
+      "Variable": "Generosity",
+      "Mean": -0.0151,
+      "Median": -0.036,
+      "StdDev": 0.1507,
+      "Min": -0.288,
+      "Q25 (25%)": -0.126,
+      "Q75 (75%)": 0.079,
+      "Max": 0.542,
+      "IQR": 0.205,
+      "Skewness": 1.01
+    },
+    {
+      "Variable": "CorruptionPerception",
+      "Mean": 0.7274,
+      "Median": 0.781,
+      "StdDev": 0.1792,
+      "Min": 0.082,
+      "Q25 (25%)": 0.667,
+      "Q75 (75%)": 0.845,
+      "Max": 0.939,
+      "IQR": 0.178,
+      "Skewness": -1.5775
+    }
+  ],
+  "pearson_correlations_with_happiness": {
+    "HappinessScore": 1.0,
+    "LogGDP": 0.7898,
+    "SocialSupport": 0.7569,
+    "HealthyLifeExpectancy": 0.7681,
+    "Freedom": 0.6078,
+    "Generosity": -0.0178,
+    "CorruptionPerception": -0.4211
+  },
+  "spearman_correlations_with_happiness": {
+    "HappinessScore": 1.0,
+    "LogGDP": 0.8094,
+    "SocialSupport": 0.798,
+    "HealthyLifeExpectancy": 0.7969,
+    "Freedom": 0.6071,
+    "Generosity": -0.0076,
+    "CorruptionPerception": -0.3008
+  }
+}

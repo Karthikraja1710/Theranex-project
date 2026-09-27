@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Machine Learning models (optional - we keep smaller trained models in repo for demo, ignore huge weights)
+*.tmp
+
+# VS Code / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
